@@ -1,0 +1,106 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.scroll {
+    margin-top: 100px;
+}
+
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.fish-page2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tank-tips {
+    margin-right: 300px;
+    margin-left: 250px;
+}
+
+
+.image--card {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    
+}
+
+
+.scroll-box {
+width: 588px;
+height: 770px;
+left: 122px;
+top: 107px;
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    
+}
+
+.fishList {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+
+
+  background-color: transparent;
+    overflow: scroll; 
+
+    
+}
+
+.fish-card {
+    height: 107px;
+    width: 273;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+
+.fish-card__text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: Erica One;
+    src: url("../Fonts/ and Cabin/EricaOne-Regular.ttf");
+}
